@@ -1,6 +1,10 @@
 // robot seguidor de linea 
 // segueix una linea blanca delimitada per dues lineas negres 
 
+#include <AFMotor.h>
+
+AF_DCMotor motor(4);
+
 // Definició de les sortides 
 int MD1= 6; // Motor Dret 
 int ME1= 5 ; // Motor Esquerra 
